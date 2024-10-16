@@ -1,0 +1,234 @@
+@import url(reset.css);
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    /* background-color: #2d2c2c; */
+    width: 100%;
+}
+
+.wrapper {
+    /* padding-bottom: 1000px; */
+}
+.header {
+    background-color: #2d2c2c;
+}
+.header__container {
+}
+.container {
+    width: 1315px;
+    margin: 0 auto;
+}
+.header__content {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.menu {
+    display: flex;
+    gap: 25px;
+}
+.li a {
+    color: white;
+}
+
+/* ------------------------------------------- */
+
+.intro {
+    background-color: #f3f2f2;
+}
+.intro__container {
+
+}
+.container {
+}
+.intro__content {
+    text-align: center;
+    padding: 40px;
+}
+.intro__title {
+    
+}
+.title {
+    font-size: 25px;
+    font-weight: 700;
+}
+.intro__subtitle {
+}
+.subtitle {
+}
+
+
+/* ----------------------------------------- */
+
+
+.projects {
+    background-color: #fff;
+    
+}
+.projects__container {
+    
+}
+.container {
+}
+.projects__content {
+    padding: 40px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.projects__title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.title {
+}
+.projects__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.projects__blocks {
+    
+}
+
+.blocks__block {
+    
+    padding: 20px 80px 20px 20px;
+    border: 1px #d0d0d0 solid;
+    width: fit-content;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.block__title {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.block__desc {
+    font-size: 14px;
+}
+
+/* --------------------------------------- */
+
+.about {
+    padding: 40px;
+    background-color: #e8e8e8;
+    
+}
+.about__container {
+}
+.container {
+}
+.about__content {
+    
+}
+.about__title {
+    margin-bottom: 10px;
+}
+.title {
+}
+.about__desc {
+    margin-bottom: 5px;
+}
+.about__menu {
+}
+.about__item {
+    background-color: rgb(61, 105, 215);
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+
+/* ---------------------------------------- */
+
+.contact {
+}
+.contact__container {
+    width: 500px;
+
+}
+.container {
+
+    
+}
+.contact__content {
+    padding: 60px 40px;
+    background-color: #616161;
+    border-radius: 10px;
+    margin: 30px 0 30px 0;
+}
+.contact__title {
+}
+.title {
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form__name {
+}
+.form__email {
+}
+.form__message {
+}
+.button-submit {
+    padding: 10px;
+    background-color: rgb(30, 157, 30);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+input {
+    /* background-color: #fff; */
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box label {
+    /* margin-top: 10px; */
+}
+
+#message {
+    border-radius: 3px;
+}
+
+
+.footer {
+    background-color: #2d2c2c;
+
+}
+.footer__container {
+    color: #fff;
+}
+.container {
+}
+.footer__content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.text {
+}
+.menu {
+}
+
+.menu__item {
+    list-style: none;
+}
+
+.menu__item a {
+    color: #fff;
+}
